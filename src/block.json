@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "fg/fg-related-post",
+  "version": "1.0",
+  "title": "FG Related Post",
+  "category": "widgets",
+  "icon": "block-default",
+  "description": "Show a post which is related to the currently displayed post or page",
+  "attributes": {
+    "postType": {
+      "type": "string",
+      "default": "sauce"
+    }
+  },
+  "textdomain": "fg-related-post",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

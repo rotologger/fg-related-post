@@ -1,0 +1,16 @@
+{
+  "name": "fg-related-post",
+  "version": "1.0.0",
+  "description": "Show a post which is related to the currently displayed post or page",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "packages-update": "wp-scripts packages-update"
+  },
+  "author": "Fabian Genthner",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^30.23.0"
+  }
+}
